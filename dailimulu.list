@@ -4,3 +4,21 @@ DOMAIN-SUFFIX,hdhive.com
 DOMAIN-SUFFIX,sehuatang.org
 DOMAIN-SUFFIX,sehuatang.net
 DOMAIN-SUFFIX,wiki.metacubex.one
+# Docker Hub
+- DOMAIN-SUFFIX,docker.com
+- DOMAIN-SUFFIX,docker.io
+
+# Docker Registry
+- DOMAIN-SUFFIX,registry-1.docker.io
+- DOMAIN-SUFFIX,index.docker.io
+- DOMAIN-SUFFIX,auth.docker.io
+- DOMAIN-SUFFIX,production.cloudflare.docker.com
+
+# Docker CDN
+- DOMAIN-SUFFIX,cloudflare.docker.com
+
+# Docker镜像分发
+- DOMAIN-SUFFIX,dockerusercontent.com
+
+# Docker官方
+- DOMAIN-SUFFIX,hub.docker.com
