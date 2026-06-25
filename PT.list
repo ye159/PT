@@ -28,3 +28,5 @@ DOMAIN-SUFFIX,qingwapt.org
 DOMAIN-SUFFIX,rousi.zip
 DOMAIN-SUFFIX,rousipt.com
 DOMAIN-SUFFIX,yempat.org
+#TX密钥
+IP-CIDR,139.196.104.220/32
