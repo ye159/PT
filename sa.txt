@@ -1,3 +1,3 @@
 #吞噬星空
 
-^(?:.*?Swallowed\.Star|吞噬星空)\.S\d+\.\d{4} => 吞噬星空 {[tmdbid=101172;type=tv;s=1]}
+^(?:.*?Swallowed\.Star|吞噬星空)\.S\d+\.\d{4} => {[tmdbid=101172;type=tv;s=1]}
