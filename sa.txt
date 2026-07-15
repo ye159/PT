@@ -1,3 +1,10 @@
 #吞噬星空
 
 ^(?:.*?Swallowed\.Star|吞噬星空)\.S\d+\.\d{4} => {[tmdbid=101172;type=tv;s=1]}
+
+#刘德华“今天…is the Day”巡回演唱会
+
+刘德华“今天…is the Day”巡回演唱会 \(2025\) - 1080p\.BluRay\.Remux\.SDR\.AVC\.DTS-HD MA 5\.1 => {[tmdbid=1553197;type=movie]}
+
+#准备好了没2：我来了
+Ready\.or\.Not\.Here\.I\.Come\.2026\.2160p\.DSNP\.WEB-DL\.DDP5\.1\.Atmos\.DV\.H\.265-MWeb\.mkv => {[tmdbid=1266127;type=movie]}
