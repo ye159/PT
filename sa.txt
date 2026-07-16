@@ -7,3 +7,6 @@
 
 #坐在角落的人​(2024).1410929
 The[\s._]+Main[\s._]+In[\s._]+The[\s._]+Corner[\s._]+2024 => {[tmdbid=1410929;type=movie]}.
+
+#千鹤先生(2024).1235832
+Mr[\s._]+Qianhe[\s._]+2024 => {[tmdbid=1235832;type=movie]}.
