@@ -1,2 +1,5 @@
 #吞噬星空.101172
 ^(?:.*?Swallowed\.Star|吞噬星空)\.S\d+\.\d{4} => {[tmdbid=101172;type=tv;s=1]}.
+
+#仙逆(2023).223911
+仙逆[\s._]+Renegade[\s._]+Immortal[\s._]+S01E([0-9]+)[\s._]+2023 => {[tmdbid=223911;type=tv;s=1;e=\1]}.
