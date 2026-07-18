@@ -1,3 +1,6 @@
+#地狱模式 ～喜欢速通游戏的玩家在废设定异世界无双～(2026).280049----观众
+Hell[\s._]+Mode[\s._]+Yarikomi-zuki[\s._]+no[\s._]+Gamer[\s._]+wa[\s._]+Haisettei[\s._]+no[\s._]+Isekai[\s._]+de[\s._]+Musou[\s._]+Suru[\s._]+S02E([0-9]+)[\s._]+2026 => {[tmdbid=280049;type=tv;s=2;e=\1]}.
+
 #仙逆(2023).223911-憨憨
 仙逆[\s._]+Renegade[\s._]+Immortal[\s._]+S01E([0-9]+)[\s._]+2023 => {[tmdbid=223911;type=tv;s=1;e=\1]}.
 
