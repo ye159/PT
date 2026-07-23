@@ -29,3 +29,6 @@ DOMAIN-SUFFIX,dockerusercontent.com
 
 # Docker官方
 DOMAIN-SUFFIX,hub.docker.com
+
+# 动漫网站
+DOMAIN-SUFFIX,anilist.co
