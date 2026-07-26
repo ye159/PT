@@ -1,1 +1,2 @@
-
+#爱旅咖啡店(2026).313101
+Musafir[\s._]+Cafe[\s._]+S01[\s._]+Arrival => {[tmdbid=313101;type=tv;s=1]}.
