@@ -1,5 +1,1 @@
-#依然的喜事(2026).296915
-Yiran[\s._]+s[\s._]+Silver[\s._]+Linings[\s._]+S01E([0-9]+)[\s._]+2026 => {[tmdbid=296915;type=tv;s=1;e=\1]}.
 
-#消失的人(2026).1658653
-Vanishing[\s._]+Point => {[tmdbid=1658653;type=movie]}.
