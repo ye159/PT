@@ -8,4 +8,4 @@ Hell[\s._]+Mode[\s._]+Yarikomi-zuki[\s._]+no[\s._]+Gamer[\s._]+wa[\s._]+Haisette
 ^(?:.*?Swallowed\.Star|吞噬星空)\.S\d+\.\d{4} => {[tmdbid=101172;type=tv;s=1]}.
 
 #感谢对战。～大小姐才不玩格斗游戏～(2026).117120
-Taiari[\s._]+-[\s._]+03[\s._]+\(CR[\s._]+1920x1080 => {[tmdbid=117120;type=tv;s=1]}.
+Taiari[\s._]+-[\s._]+E([0-9]+)[\s._]+\(CR[\s._]+1920x1080 => {[tmdbid=117120;type=tv;s=1;e=\1]}.
