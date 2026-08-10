@@ -1,1 +1,2 @@
-
+#BanG Dream! 少女乐团派对! ☆PICO(2018).80729
+BanG[\s._]+Dream![\s._]+少女乐团派对![\s._]+☆PICO[\s._]+\(2018\) => {[tmdbid=80729;type=tv;s=1]}.
