@@ -1,21 +1,6 @@
 # 分类整理规则：显式 tmdb_id 规则固定最高优先级，其余规则按书写顺序匹配
 # 普通字段 = AND；字段名前加 ? = OR；空对象 {} = 兜底规则
 
-sub_classify:
-  movie:
-    enabled: true
-    levels: []
-  tv:
-    enabled: true
-    levels: []
-  use_type_folder: true
-  use_category: true
-  sync_emby_library: true
-  emby_server_idx: 0
-  emby_library_level: rule
-  emby_library_root_path: /Movies1
-  emby_proxy_id: 2
-
 movie:
   专题/特摄电影:
     genre_ids: "-16"
@@ -65,6 +50,10 @@ movie:
   电影/其他地区电影:
     origin_country: "US,CA,GB,IE,FR,DE,IT,ES,PT,NL,BE,LU,CH,AT,SE,NO,DK,FI,IS,PL,CZ,SK,HU,RO,BG,GR,HR,SI,EE,LV,LT,UA,RU,AU,NZ"
   电影/欧美电影: {}
+
+
+# 分类整理规则：显式 tmdb_id 规则固定最高优先级，其余规则按书写顺序匹配
+# 普通字段 = AND；字段名前加 ? = OR；空对象 {} = 兜底规则
 
 tv:
   专题/特摄剧集:
