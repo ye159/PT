@@ -1,93 +1,100 @@
 # 分类整理规则：显式 tmdb_id 规则固定最高优先级，其余规则按书写顺序匹配
 # 普通字段 = AND；字段名前加 ? = OR；空对象 {} = 兜底规则
 
+sub_classify:
+  movie:
+    enabled: false
+    levels:
+      - genre_label
+  tv:
+    enabled: false
+    levels:
+      - genre_label
+  use_type_folder: false
+  use_category: true
+  sync_emby_library: false
+  emby_server_idx: 0
+  emby_library_level: level1
+  emby_library_root_path: /media
+  emby_proxy_id: 1
+
 movie:
-  专题/特摄电影:
+  特摄/特摄电影:
     genre_ids: "-16"
-    ?keywords: "tokusatsu,kaiju"
+    ?keywords: "tokusatsu"
     ?include_keywords: "ultraman,奥特曼,特摄,特攝,铠甲勇士,Power Rangers,超凡战队"
-  纪实/华语纪录片:
+  纪录片/电影/华语纪录电影:
     genre_ids: "99,-16"
     ?original_language: "zh"
     ?origin_country: "CN,HK,TW,MO"
-  纪实/其他纪录片:
+  纪录片/电影/其他纪录电影:
     genre_ids: "99,-16"
-  音乐/现场演出:
+  演唱会/现场演出:
     genre_ids: "10402,-16"
     ?keywords: "concert,live performance,music festival"
     ?include_keywords: "演唱会,音乐会,巡演,现场,現場"
-  音乐/音乐电影:
+  演唱会/音乐电影:
     genre_ids: "10402,-16"
-  动画/国产动画:
+  动漫/动画/国产动画:
     genre_ids: "16"
     ?original_language: "zh"
     ?origin_country: "CN,HK,TW,MO"
-  动画/日本动画:
+  动漫/动画/日本动画:
     genre_ids: "16"
     ?original_language: "ja"
     ?origin_country: "JP"
-  动画/韩国动画:
+  动漫/动画/韩国动画:
     genre_ids: "16"
     ?original_language: "ko"
     ?origin_country: "KR"
-  动画/欧美动画:
+  动漫/动画/欧美动画:
     genre_ids: "16"
     origin_country: "US,CA,GB,IE,FR,DE,IT,ES,PT,NL,BE,LU,CH,AT,SE,NO,DK,FI,IS,PL,CZ,SK,HU,RO,BG,GR,HR,SI,EE,LV,LT,UA,RU,AU,NZ"
-  动画/其他动画:
+  动漫/动画/其他动画:
     genre_ids: "16"
-  家庭/家庭电影:
-    genre_ids: "10751"
-  电影/悬疑犯罪:
-    genre_ids: "27,53,9648,80"
-  电影/科幻动作:
-    genre_ids: "878,14,28,12"
   电影/华语电影:
     ?original_language: "zh"
     ?origin_country: "CN,HK,TW,MO"
   电影/日韩电影:
     ?original_language: "ja,ko"
     ?origin_country: "JP,KR"
-  电影/其他地区电影:
+  电影/欧美电影:
     origin_country: "US,CA,GB,IE,FR,DE,IT,ES,PT,NL,BE,LU,CH,AT,SE,NO,DK,FI,IS,PL,CZ,SK,HU,RO,BG,GR,HR,SI,EE,LV,LT,UA,RU,AU,NZ"
-  电影/欧美电影: {}
-
-
-# 分类整理规则：显式 tmdb_id 规则固定最高优先级，其余规则按书写顺序匹配
-# 普通字段 = AND；字段名前加 ? = OR；空对象 {} = 兜底规则
+  电影/待分类: {}
 
 tv:
-  专题/特摄剧集:
+  特摄/特摄剧集:
     genre_ids: "-16"
     ?keywords: "tokusatsu,kaiju"
     ?include_keywords: "ultraman,奥特曼,特摄,特攝,铠甲勇士,Power Rangers,超凡战队"
-  纪实/华语纪录片:
+  纪录片/华语纪录片:
     genre_ids: "99,-16"
     ?original_language: "zh"
     ?origin_country: "CN,HK,TW,MO"
-  纪实/其他纪录片:
+  纪录片/其他纪录片:
     genre_ids: "99,-16"
-  动漫/儿童动漫:
+  动漫/动漫/儿童动漫:
     genre_ids: "+16,10762"
-  动漫/国产动漫:
+  动漫/动漫/国产动漫:
     genre_ids: "16"
     ?original_language: "zh"
     ?origin_country: "CN,HK,TW,MO"
-  动漫/日本动漫:
+  动漫/动漫/日本动漫:
     genre_ids: "16"
     ?original_language: "ja"
     ?origin_country: "JP"
-  动漫/韩国动漫:
+  动漫/动漫/韩国动漫:
     genre_ids: "16"
     ?original_language: "ko"
     ?origin_country: "KR"
-  动漫/欧美动漫:
+  动漫/动漫/欧美动漫:
     genre_ids: "16"
     origin_country: "US,CA,GB,IE,FR,DE,IT,ES,PT,NL,BE,LU,CH,AT,SE,NO,DK,FI,IS,PL,CZ,SK,HU,RO,BG,GR,HR,SI,EE,LV,LT,UA,RU,AU,NZ"
-  动漫/其他动漫:
+  动漫/动漫/其他动漫:
     genre_ids: "16"
-  节目/儿童节目:
+  综艺/儿童节目:
     genre_ids: "10762,-16"
-  节目/新闻:
+  综艺/新闻:
     genre_ids: "10763"
   综艺/华语综艺:
     genre_ids: "10764,10767"
@@ -107,4 +114,4 @@ tv:
     ?origin_country: "JP,KR"
   剧集/欧美剧集:
     origin_country: "US,CA,GB,IE,FR,DE,IT,ES,PT,NL,BE,LU,CH,AT,SE,NO,DK,FI,IS,PL,CZ,SK,HU,RO,BG,GR,HR,SI,EE,LV,LT,UA,RU,AU,NZ"
-  剧集/剧集待分类: {}
+  剧集/待分类: {}
