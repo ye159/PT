@@ -14,3 +14,19 @@ Mr[\s._]+Qianhe[\s._]+2024 => {[tmdbid=1235832;type=movie]}.
 
 #重影（2025）、Persona(2025).282905
 Persona\.S(\d+)E(\d+)(?=.*2025) => $0 {[tmdbid=282905;type=tv;s=$1;e=$2]}
+
+#监视者.Watcher.2022.807356
+监视者[\s._]+Watcher[\s._]+2022 => $0 {[tmdbid=807356;type=movie]}
+
+#大佬.Brother.2000.327
+大佬[\s._]+Brother[\s._]+2000 => $0 {[tmdbid=327;type=movie]}
+
+#The.Lowdown.273247
+The[\s._]+Lowdown[\s._]+S(\d+)E(\d+) => $0 {[tmdbid=273247;type=tv;s=$1;e=$2]}
+
+#Alls.Fair.258742
+Alls[\s._]+Fair[\s._]+S(\d+)E(\d+) => $0 {[tmdbid=258742;type=tv;s=$1;e=$2]}
+
+#Fight.for.Love.2025.263044
+Fight[\s._]+for[\s._]+Love[\s._]+2025[\s._]+S(\d+)E(\d+) => $0 {[tmdbid=263044;type=tv;s=$1;e=$2]}
+
