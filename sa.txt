@@ -10,4 +10,7 @@ The[\s._]+Main[\s._]+In[\s._]+The[\s._]+Corner[\s._]+2024 => {[tmdbid=1410929;ty
 Mr[\s._]+Qianhe[\s._]+2024 => {[tmdbid=1235832;type=movie]}.
 
 #你的心事映在我的眉间(2026).316795
-你的心事([0-9]+) => {[tmdbid=316795;type=tv;s=1;e=\1]}.
+你的心事映在我的眉间.*?(\d{2}) => $0 {[tmdbid=316795;type=tv;s=1;e=\1]}
+
+#重影（2025）、Persona(2025).282905
+Persona\.S(\d+)E(\d+)(?=.*2025) => $0 {[tmdbid=282905;type=tv;s=$1;e=$2]}
