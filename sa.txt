@@ -27,6 +27,9 @@ The[\s._]+Lowdown[\s._]+S(\d+)E(\d+) => $0 {[tmdbid=273247;type=tv;s=$1;e=$2]}
 #Alls.Fair.258742
 Alls[\s._]+Fair[\s._]+S(\d+)E(\d+) => $0 {[tmdbid=258742;type=tv;s=$1;e=$2]}
 
+#喜剧之王单口季·纯享版(2024).261391
+喜剧之王单口季.*?2024.*?S(\d+)E(\d+) => $0 {[tmdbid=261391;type=tv;s=$1;e=$2]}
+
 #Fight.for.Love.2025.263044
 Fight[\s._]+for[\s._]+Love[\s._]+2025[\s._]+S(\d+)E(\d+) => $0 {[tmdbid=263044;type=tv;s=$1;e=$2]}
 
