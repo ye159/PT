@@ -9,7 +9,6 @@ DOMAIN-SUFFIX,hddolby.com
 DOMAIN-SUFFIX,fsm-us.eu.org
 DOMAIN-SUFFIX,hdfans.org
 DOMAIN-SUFFIX,hdtime.org
-DOMAIN-SUFFIX,hhan.club
 DOMAIN-SUFFIX,hhanclub.top
 DOMAIN-SUFFIX,ilovelemonhd.me
 DOMAIN-SUFFIX,leaves.red
@@ -28,7 +27,15 @@ DOMAIN-SUFFIX,qingwapt.org
 DOMAIN-SUFFIX,rousi.zip
 DOMAIN-SUFFIX,rousipt.com
 DOMAIN-SUFFIX,yempat.org
-#TX密钥
+DOMAIN-SUFFIX,wiki.cmscc.cc
+DOMAIN-SUFFIX,115.com
+DOMAIN-SUFFIX,115cdn.com
+DOMAIN-SUFFIX,115img.com
+DOMAIN-SUFFIX,115.com.cn
+DOMAIN-KEYWORD,tracker
+DOMAIN-KEYWORD, announce
+DOMAIN-KEYWORD,115
+DOMAIN-SUFFIX,music.mefun.org
 IP-CIDR,139.196.104.220/32
 #sa
 IP-CIDR,139.196.104.220/32
