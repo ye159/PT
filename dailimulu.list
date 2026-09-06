@@ -38,3 +38,9 @@ DOMAIN-SUFFIX,gimy115.top
 
 # 蜂巢 
 DOMAIN-SUFFIX,fcloudpan.com
+
+# TMDB信息
+DOMAIN-SUFFIX,themoviedb.org
+
+# TMDB图片
+DOMAIN-SUFFIX,tmdb.org
