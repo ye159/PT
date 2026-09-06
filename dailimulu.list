@@ -1,10 +1,9 @@
-# 六合彩
+# 六彩
 DOMAIN-SUFFIX,bet.hkjc.com
-
 # 影巢
 DOMAIN-SUFFIX,hdhive.online
 DOMAIN-SUFFIX,hdhive.com
-# 色花
+# s花
 DOMAIN-SUFFIX,sehuatang.org
 DOMAIN-SUFFIX,sehuatang.net
 # 忘了
@@ -14,33 +13,24 @@ DOMAIN-SUFFIX,dian115.com
 # Docker Hub
 DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,docker.io
-
 # Docker Registry
 DOMAIN-SUFFIX,registry-1.docker.io
 DOMAIN-SUFFIX,index.docker.io
 DOMAIN-SUFFIX,auth.docker.io
 DOMAIN-SUFFIX,production.cloudflare.docker.com
-
 # Docker CDN
 DOMAIN-SUFFIX,cloudflare.docker.com
-
 # Docker镜像分发
 DOMAIN-SUFFIX,dockerusercontent.com
-
 # Docker官方
 DOMAIN-SUFFIX,hub.docker.com
-
 # sa教程文档
 DOMAIN-SUFFIX,viplee.cc
-
 # 剧迷
 DOMAIN-SUFFIX,gimy115.top
-
 # 蜂巢 
 DOMAIN-SUFFIX,fcloudpan.com
-
 # TMDB信息
 DOMAIN-SUFFIX,themoviedb.org
-
 # TMDB图片
 DOMAIN-SUFFIX,tmdb.org
