@@ -1,0 +1,10 @@
+# DV+HDR：只在文件名明确同时出现 DV/DoVi 和 HDR/HDR10/HDR10+ 时命中
+(?i)(?=.*(?:^|[\W_])(DV|DoVi|Dolby[\W_]*Vision)(?:[\W_]|$))(?=.*(?:^|[\W_])(HDR10\+|HDR10Plus|HDR10P|HDR10|HDR)(?:[\W_]|$)).* => DV+HDR
+# 纯 DV：有 DV/DoVi，但明确排除 HDR/HDR10/HDR10+
+(?i)(?=.*(?:^|[\W_])(DV|DoVi|Dolby[\W_]*Vision)(?:[\W_]|$))(?!.*(?:^|[\W_])(HDR10\+|HDR10Plus|HDR10P|HDR10|HDR)(?:[\W_]|$)).* => DV
+# 杜比 / DV 字段捕获：只捕获纯 DV，避免纯 DV 被带成 DV+HDR
+杜比#(?i)(?=.*(?:^|[\W_])(DV|DoVi|Dolby[\W_]*Vision)(?:[\W_]|$))(?!.*(?:^|[\W_])(HDR10\+|HDR10Plus|HDR10P|HDR10|HDR)(?:[\W_]|$)).*#
+# ========== 帧率 ==========
+(?i)(?:^|[\W_])(23\.976|24fps|24\.0fps|25fps|30fps|50fps|60fps|120fps|24p|25p|30p|60p)(?:[\W_]|$) => fps
+# 内容版本 / edition
+edition#(?i)(IMAX[ ._-]*Enhanced|IMAX|3D|3-D|3D版|三维版|立体版|extended[ ._-]*edition|extended[ ._-]*cut|extended|theatrical[ ._-]*cut|theatrical|director'?s[\W_]*cut|directors[\W_]*cut|uncut|unrated|院线版|加长版|导演剪辑版|未删减版|未分级版)#
