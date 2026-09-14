@@ -34,3 +34,7 @@ DOMAIN-SUFFIX,fcloudpan.com
 DOMAIN-SUFFIX,themoviedb.org
 # TMDB图片
 DOMAIN-SUFFIX,tmdb.org
+#cloudflare
+DOMAIN-KEYWORD,cloudflare
+#1080X
+DOMAIN-SUFFIX,agaghhh.cc
