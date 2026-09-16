@@ -1,37 +1,4 @@
 ^(?:.*?Swallowed\.Star|吞噬星空)\.S\d+\.\d{4} => {[tmdbid=101172;type=tv;s=1]}.
 
-#中国红妆(2026).320230
-中国红妆[\s._]+2026[\s._]+S01 => {[tmdbid=320230;type=tv;s=1]}.
-
-#坐在角落的人​(2024).1410929
-The[\s._]+Main[\s._]+In[\s._]+The[\s._]+Corner[\s._]+2024 => {[tmdbid=1410929;type=movie]}.
-
-#千鹤先生(2024).1235832
-Mr[\s._]+Qianhe[\s._]+2024 => {[tmdbid=1235832;type=movie]}.
-
-#你的心事映在我的眉间(2026).316795
-你的心事映在我的眉间.*?(\d{2}) => $0 {[tmdbid=316795;type=tv;s=1;e=\1]}
-
-#重影（2025）、Persona(2025).282905
-Persona\.S(\d+)E(\d+)(?=.*2025) => $0 {[tmdbid=282905;type=tv;s=$1;e=$2]}
-
-#监视者.Watcher.2022.807356
-监视者[\s._]+Watcher[\s._]+2022 => $0 {[tmdbid=807356;type=movie]}
-
-#大佬.Brother.2000.327
-大佬[\s._]+Brother[\s._]+2000 => $0 {[tmdbid=327;type=movie]}
-
-#The.Lowdown.273247
-The[\s._]+Lowdown[\s._]+S(\d+)E(\d+) => $0 {[tmdbid=273247;type=tv;s=$1;e=$2]}
-
-#Alls.Fair.258742
-Alls[\s._]+Fair[\s._]+S(\d+)E(\d+) => $0 {[tmdbid=258742;type=tv;s=$1;e=$2]}
-
 #喜剧之王单口季·纯享版(2024).261391
 喜剧之王单口季·纯享版[\s._]+\(2024\)[\s._]+-[\s._]+S03E([0-9]+) => {[tmdbid=261391;type=tv;s=3;e=\1]}.
-
-#Fight.for.Love.2025.263044
-Fight[\s._]+for[\s._]+Love[\s._]+2025[\s._]+S(\d+)E(\d+) => $0 {[tmdbid=263044;type=tv;s=$1;e=$2]}
-
-#杀人记忆法.432836
-Memoir[\s._]+of[\s._]+a[\s._]+Murderer[\s._]+2017 => {[tmdbid=432836;type=movie]}.
