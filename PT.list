@@ -40,3 +40,5 @@ DOMAIN-SUFFIX,hhanclub.net
 IP-CIDR,139.196.104.220/32
 #sa
 IP-CIDR,139.196.104.220/32
+#pipi(中转站)
+DOMAIN-SUFFIX,pipio.io
