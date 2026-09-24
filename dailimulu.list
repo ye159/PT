@@ -44,3 +44,8 @@ DOMAIN-SUFFIX,re0.me
 DOMAIN-SUFFIX,pipio.dev
 #狗妈日本服务器
 DOMAIN-SUFFIX,shlii.io
+# ghcr.io 相关 —— 走代理
+DOMAIN-SUFFIX,ghcr.io
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,githubassets.com
