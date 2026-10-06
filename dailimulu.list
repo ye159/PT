@@ -49,3 +49,5 @@ DOMAIN-SUFFIX,ghcr.io
 DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,githubassets.com
+# 懒猫云
+DOMAIN-SUFFIX,lazycat.wiki
