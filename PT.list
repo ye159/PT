@@ -1,43 +1,13 @@
-DOMAIN-SUFFIX,agsvpt.com
-DOMAIN-SUFFIX,asgpt.trackers.work
-DOMAIN-SUFFIX,audiences.me
+# QB
+DOMAIN,t.audiences.me
+DOMAIN-KEYWORD,tracker
 DOMAIN-SUFFIX,cinefiles.info
-DOMAIN-SUFFIX,connects.icu
-DOMAIN-SUFFIX,datmos.club
-DOMAIN-SUFFIX,daydream.dmhy.best
-DOMAIN-SUFFIX,hddolby.com
-DOMAIN-SUFFIX,fsm-us.eu.org
-DOMAIN-SUFFIX,hdfans.org
-DOMAIN-SUFFIX,hdtime.org
-DOMAIN-SUFFIX,hhanclub.top
-DOMAIN-SUFFIX,ilovelemonhd.me
-DOMAIN-SUFFIX,leaves.red
-DOMAIN-SUFFIX,lemonhd.club
-DOMAIN-SUFFIX,m-team.cc
-DOMAIN-SUFFIX,m-team.io
-DOMAIN-SUFFIX,new.qingwa.pro
-DOMAIN-SUFFIX,nextpt.net
-DOMAIN-SUFFIX,ourbits.club
-DOMAIN-SUFFIX,pthome.net
-DOMAIN-SUFFIX,pthome.org
-DOMAIN-SUFFIX,pttime.org
-DOMAIN-SUFFIX,qingwa.pro
-DOMAIN-SUFFIX,qingwapt.com
-DOMAIN-SUFFIX,qingwapt.org
-DOMAIN-SUFFIX,rousi.zip
-DOMAIN-SUFFIX,rousipt.com
-DOMAIN-SUFFIX,yempat.org
-DOMAIN-SUFFIX,wiki.cmscc.cc
+# 115
 DOMAIN-SUFFIX,115.com
 DOMAIN-SUFFIX,115cdn.com
 DOMAIN-SUFFIX,115img.com
 DOMAIN-SUFFIX,115.com.cn
-DOMAIN-KEYWORD,tracker
-DOMAIN-KEYWORD, announce
 DOMAIN-KEYWORD,115
-DOMAIN-SUFFIX,music.mefun.org
-DOMAIN-SUFFIX,hhanclub.net
-IP-CIDR,139.196.104.220/32
 #sa
 IP-CIDR,139.196.104.220/32
 #pipi(中转站)
