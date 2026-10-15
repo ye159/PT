@@ -32,3 +32,5 @@ DOMAIN-SUFFIX,HBOX.JP
 # 日本代理动漫
 DOMAIN-SUFFIX,anilist.co
 DOMAIN-SUFFIX,anibt.net
+# 未知但刮削不了
+DOMAIN-SUFFIX,javten.com
