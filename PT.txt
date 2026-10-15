@@ -1,0 +1,13 @@
+# QB
+DOMAIN,t.audiences.me
+DOMAIN-KEYWORD,tracker
+DOMAIN-SUFFIX,cinefiles.info
+# 115
+DOMAIN-REGEX,^([^.]+\.)*115\.com$
+DOMAIN-SUFFIX,115cdn.com
+DOMAIN-SUFFIX,115img.com
+DOMAIN-SUFFIX,115.com.cn
+#sa
+IP-CIDR,139.196.104.220/32
+#pipi(中转站)
+DOMAIN-SUFFIX,pipio.io
