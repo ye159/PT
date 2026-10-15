@@ -3,7 +3,7 @@ DOMAIN,t.audiences.me
 DOMAIN-KEYWORD,tracker
 DOMAIN-SUFFIX,cinefiles.info
 # 115
-DOMAIN-SUFFIX,115.com
+DOMAIN-REGEX,^([^.]+\.)*115\.com$
 DOMAIN-SUFFIX,115cdn.com
 DOMAIN-SUFFIX,115img.com
 DOMAIN-SUFFIX,115.com.cn
